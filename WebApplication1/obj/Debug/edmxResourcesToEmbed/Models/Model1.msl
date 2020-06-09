@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="CareersModelStoreContainer" CdmEntityContainer="CareersEntities">
+    <EntitySetMapping Name="CVs">
+      <EntityTypeMapping TypeName="CareersModel.CV">
+        <MappingFragment StoreEntitySet="CV">
+          <ScalarProperty Name="CID" ColumnName="CID" />
+          <ScalarProperty Name="Full_Name" ColumnName="Full_Name" />
+          <ScalarProperty Name="Email_id" ColumnName="Email_id" />
+          <ScalarProperty Name="CV1" ColumnName="CV" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
